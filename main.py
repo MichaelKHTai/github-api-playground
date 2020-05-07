@@ -40,7 +40,7 @@ def run(detail=False):
             new_repo = set(repo_list) - set(pre_repo_list)
         
             if len(new_repo) > 0:
-                #alert_server(list(new_repo))
+                alert_server(list(new_repo))
                 # Update the list only when the server is correctly updated.
                 json.dump(repo_list, f)
 
