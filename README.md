@@ -18,6 +18,14 @@ https://github.com/pypa/pipenv
 pipenv sync
 ```
 
+## Environment Variable
+
+This project use `python-dotenv`, please create a `.env` file and provide following parameters.
+| Name | Description | Value |
+|------|----------|---------|
+| `KEYWORD` | Searching keyword for Github, e.g. googleapis | String |
+
+
 ## Getting Started
 
 ```
